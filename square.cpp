@@ -1,6 +1,7 @@
 class Square {
   public:
-  int calculatePerimeter(int s) {
-    return 4 * s;
+  // Renamed parameter for better clarity: s -> sideLength (Renamed Variables)
+  int calculatePerimeter(int sideLength) {
+    return 4 * sideLength;
   }
 };
