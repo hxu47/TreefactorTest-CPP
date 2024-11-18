@@ -1,4 +1,4 @@
-int calculatePerimeter(int sideLength) {
-    return 4 * sideLength;
+int calculatePerimeter(int s) {
+    return 4 * s;
 }
 
